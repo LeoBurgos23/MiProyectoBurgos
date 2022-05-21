@@ -1,0 +1,16 @@
+.gradiente{background-image: linear-gradient(45deg, red,white);transition: transform 3s}
+.gradiente:hover{background-color: aqua; transform:scaleY(1.5);}
+.otracaja{ background-image: linear-gradient(45deg, red,white)}
+.menuitem {border:solid 3px green; padding: 2px; transition: transform 3s; }
+.menuitem:hover{ background-color: aqua; transform:scaleY(3.5);}
+
+@keyframes ampliar {0% {width: 100px;}
+    25%{width: 150px;}
+
+    50% {width: 200px; background-color: aqua;}
+    75%{ width: 100px; background-color: black;}
+    
+}
+.animado{ width: 100px; height: 100px; background-color: blue;animation-name: ampliar;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;animation-duration: 5s; animation-delay: 2s;}

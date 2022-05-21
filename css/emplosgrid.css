@@ -1,0 +1,51 @@
+
+
+.verde {
+    background-color: blue;
+}
+
+
+.azulfuerte {grid-row-start: 2;
+grid-column-start: 3;}
+
+
+    
+
+
+.rojo {
+    background-color: brown;
+}
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1);
+    grid-row: 5;
+
+    grid-template-areas:"nav header header"
+    "nav productos publicidad"
+    "nav footer footer";
+    grid-template-columns: 15% auto 25%;
+    grid-template-rows: 100px 1fr 1fr 75px;
+    height: 100vh;
+    justify-items: center;
+    justify-items: stretch;
+    
+}
+header{grid-area: header;
+align-self: center;
+align-self: center;}
+
+nav{grid-area: nav;}
+
+.border{border: 1px solid black;}
+
+@media screen and (min-width: 768px){
+    .GridContainer
+    
+}
+@media screen and (min-width:1200px) 
+
+    
+}
+
+
